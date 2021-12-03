@@ -1,12 +1,12 @@
 import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../../components/layout"
+import Exercise1 from "./components/Exercise1"
 
 // markup 
 const IndexPage = () => {
   return (
     <Layout>
-        hello world
+        <Exercise1 />
     </Layout>
   )
 }
