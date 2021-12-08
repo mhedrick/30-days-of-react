@@ -11,10 +11,10 @@ const IndexPage = () => {
       <Layout>
         <Row>
           <Col md="auto">
-          <a href="/Day01"><Image src="https://via.placeholder.com/75" thumbnail /></a>
+          <a href="/Day03"><Image src="https://via.placeholder.com/75" thumbnail /></a>
           </Col>
           <Col>
-          <h2><a href="/Day01">Day 01 <small class="text-muted">JavaScript Refresher</small></a></h2>
+          <h2><a href="/Day03">Day 03 <small class="text-muted">Setting Up</small></a></h2>
             Lorem ipsum dolor sit amet
           </Col>
         </Row>
