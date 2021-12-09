@@ -7,6 +7,7 @@ import Image from 'react-bootstrap/Image';
 import { Link } from "gatsby"
 
 import day03_thumbnail from '../assets/day03_thumbnail.png';
+import day04_thumbnail from '../assets/day04_thumbnail.png';
 
 const days = [
   {
@@ -14,6 +15,12 @@ const days = [
     title: "Setting Up",
     image: day03_thumbnail,
     description: "Putting together the React/Gatsby environment and getting back into the swing of things."
+  }, 
+  {
+    number: "04",
+    title: "Components",
+    image: day04_thumbnail,
+    description: '"Learning" how functional components work, and turning yesterday\'s components into functions...'
   }
 ];
 
@@ -22,8 +29,8 @@ const IndexPage = () => {
   return (
     <Layout>
       {days.map(({ number, title, image, description }) => (
-        <Row key={number}>
-          <Col md="2">
+        <Row key={number} className="mb-2">
+          <Col md="1">
             <Link to={`Day${number}`}><Image src={image} fluid thumbnail /></Link>
           </Col>
           <Col>
