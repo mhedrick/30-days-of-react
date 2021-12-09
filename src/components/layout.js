@@ -7,11 +7,11 @@ import { Link } from "gatsby"
 const Layout = ({children}) => {
   return (
     <main>
-      <Container>
+      <Container style={{fontFamily: "readex pro"}}>
         <title>30 Days of React</title>
         <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <span className="fs-4">maggie k hedrick</span>
+            <span className="fs-4" style={{fontFamily: "pacifico"}}>maggie k hedrick</span>
           </Link>
           <span className="fs-4">30 Days of React</span>
         </header>

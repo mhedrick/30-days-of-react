@@ -1,5 +1,7 @@
 import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fontsource/pacifico"
+import "@fontsource/readex-pro"
 import Layout from "../components/layout"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -35,7 +37,7 @@ const IndexPage = () => {
           </Col>
           <Col>
             <h2>
-              <Link to={`Day${number}`}>Day {number} <small className="text-muted">{title}</small></Link>
+              <Link to={`Day${number}`}>Day {number}</Link> <small className="text-muted">{title}</small>
             </h2>
             {description}
           </Col>
