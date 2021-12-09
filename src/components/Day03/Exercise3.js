@@ -3,13 +3,13 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
-import ada from '../../../static/ada.jpeg'
+import ada from '../../assets/ada.jpeg'
 
 const Exercise3 = () => {
     return (
         <Card className="my-2">
             <Card.Body>
-                <Image src={ada} width="100" roundedCircle thumbnail />
+                <Image src={ada} alt="Portrait of Ada Lovelace" width="100" roundedCircle thumbnail />
                 <Card.Title>Ada Lovelace</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Mother of Algorithms</Card.Subtitle>
                 <Card.Title>Skills</Card.Title>
