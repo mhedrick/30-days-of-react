@@ -8,14 +8,14 @@ const ExerciseTabs = ({ exercises }) => {
         <Tab.Container defaultActiveKey="exercise-0">
             <Nav activeKey="exercise-0" variant="pills">
                 {exercises.map((e, i) =>
-                    <Nav.Item>
+                    <Nav.Item key={i}>
                         <Nav.Link eventKey={`exercise-${i}`}>Exercise {i + 1}</Nav.Link>
                     </Nav.Item>
                 )}
             </Nav>
             <Tab.Content>
                 {exercises.map((e, i) =>
-                    <Tab.Pane eventKey={`exercise-${i}`}>
+                    <Tab.Pane eventKey={`exercise-${i}`} key={i}>
                         {exercises[i]}
                     </Tab.Pane>
                 )}
