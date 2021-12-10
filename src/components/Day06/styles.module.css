@@ -1,0 +1,19 @@
+.tile {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: var(--bs-teal);
+    color: white;
+}
+
+.odd {
+    background-color: var(--bs-yellow);
+}
+
+.prime {
+    background-color: var(--bs-red);
+}

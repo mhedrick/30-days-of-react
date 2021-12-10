@@ -10,6 +10,7 @@ import { Link } from "gatsby"
 
 import day03_thumbnail from '../assets/day03_thumbnail.png';
 import day04_thumbnail from '../assets/day04_thumbnail.png';
+import day06_thumbnail from '../assets/day06_thumbnail.png';
 
 const days = [
   {
@@ -23,6 +24,12 @@ const days = [
     title: "Components",
     image: day04_thumbnail,
     description: '"Learning" how functional components work, and turning yesterday\'s components into functions...'
+  },
+  {
+    number: "06",
+    title: "Mapping Arrays",
+    image: day06_thumbnail,
+    description: 'Using map on arrays to display JSX for lists'
   }
 ];
 
