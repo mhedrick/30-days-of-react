@@ -12,6 +12,7 @@ import day03_thumbnail from '../assets/day03_thumbnail.png';
 import day04_thumbnail from '../assets/day04_thumbnail.png';
 import day06_thumbnail from '../assets/day06_thumbnail.png';
 import day07_thumbnail from '../assets/day07_thumbnail.png';
+import day08_thumbnail from '../assets/day08_thumbnail.png';
 
 const days = [
   {
@@ -37,6 +38,12 @@ const days = [
     title: "Class Based Components",
     image: day07_thumbnail,
     description: 'Turning yesterdays components into classes' 
+  },
+  {
+    number: "08",
+    title: "State",
+    image: day08_thumbnail,
+    description: 'Quick refresher on React state management' 
   }
 ];
 
