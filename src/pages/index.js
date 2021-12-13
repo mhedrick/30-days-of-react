@@ -11,6 +11,7 @@ import { Link } from "gatsby"
 import day03_thumbnail from '../assets/day03_thumbnail.png';
 import day04_thumbnail from '../assets/day04_thumbnail.png';
 import day06_thumbnail from '../assets/day06_thumbnail.png';
+import day07_thumbnail from '../assets/day07_thumbnail.png';
 
 const days = [
   {
@@ -30,6 +31,12 @@ const days = [
     title: "Mapping Arrays",
     image: day06_thumbnail,
     description: 'Using map on arrays to display JSX for lists'
+  },
+  {
+    number: "07",
+    title: "Class Based Components",
+    image: day07_thumbnail,
+    description: 'Turning yesterdays components into classes' 
   }
 ];
 
