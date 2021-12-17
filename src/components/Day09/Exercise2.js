@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import { tile } from '../../components/Day06/styles.module.css';
 
 class Exercise2 extends React.Component {
     constructor(props) {
