@@ -13,6 +13,7 @@ import day04_thumbnail from '../assets/day04_thumbnail.png';
 import day06_thumbnail from '../assets/day06_thumbnail.png';
 import day07_thumbnail from '../assets/day07_thumbnail.png';
 import day08_thumbnail from '../assets/day08_thumbnail.png';
+import day09_thumbnail from '../assets/day09_thumbnail.png';
 
 const days = [
   {
@@ -44,6 +45,12 @@ const days = [
     title: "State",
     image: day08_thumbnail,
     description: 'Quick refresher on React state management' 
+  },
+  {
+    number: "09",
+    title: "Conditional Rendering",
+    image: day09_thumbnail,
+    description: 'Use conditional rendering to show different data based on different conditions' 
   }
 ];
 
