@@ -15,6 +15,7 @@ import day07_thumbnail from '../assets/day07_thumbnail.png';
 import day08_thumbnail from '../assets/day08_thumbnail.png';
 import day09_thumbnail from '../assets/day09_thumbnail.png';
 import day11_thumbnail from '../assets/day11_thumbnail.png';
+import day12_thumbnail from '../assets/day12_thumbnail.png';
 
 const days = [
   {
@@ -58,6 +59,12 @@ const days = [
     title: "Events",
     image: day11_thumbnail,
     description: 'Handling simple events in React' 
+  },
+  {
+    number: "12",
+    title: "Forms",
+    image: day12_thumbnail,
+    description: 'Handling form input' 
   }
 ];
 
