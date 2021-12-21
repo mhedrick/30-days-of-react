@@ -16,6 +16,7 @@ import day08_thumbnail from '../assets/day08_thumbnail.png';
 import day09_thumbnail from '../assets/day09_thumbnail.png';
 import day11_thumbnail from '../assets/day11_thumbnail.png';
 import day12_thumbnail from '../assets/day12_thumbnail.png';
+import day16_thumbnail from '../assets/day16_thumbnail.png'; 
 
 const days = [
   {
@@ -65,6 +66,12 @@ const days = [
     title: "Forms",
     image: day12_thumbnail,
     description: 'Handling form input' 
+  },
+  {
+    number: "16",
+    title: "Higher Order Components",
+    image: day16_thumbnail,
+    description: 'Creating a function that wraps a component in common logic' 
   }
 ];
 
