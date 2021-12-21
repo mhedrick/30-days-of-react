@@ -18,6 +18,7 @@ import day11_thumbnail from '../assets/day11_thumbnail.png';
 import day12_thumbnail from '../assets/day12_thumbnail.png';
 import day16_thumbnail from '../assets/day16_thumbnail.png'; 
 import day18_thumbnail from '../assets/day18_thumbnail.png';
+import day19_thumbnail from '../assets/day19_thumbnail.png';
 
 const days = [
   {
@@ -79,6 +80,12 @@ const days = [
     title: "Data fetching",
     image: day18_thumbnail,
     description: 'Creating a function that wraps a component in common logic' 
+  },
+  {
+    number: "19",
+    title: "Project",
+    image: day19_thumbnail,
+    description: 'Creating a project around cat facts to build upon what has been learned previously' 
   }
 ];
 
