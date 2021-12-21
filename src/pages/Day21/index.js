@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react"
+import React, { Fragment, useState, useEffect } from "react"
 import Layout from '../../components/layout'
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
@@ -12,6 +12,10 @@ const CatFacts = () => {
     const [count, setCount] = useState(0);
     const [avgWeight, setAvgWeight] = useState(0);
     const [avgLife, setAvgLife] = useState(0);
+    
+    useEffect(() => {
+        fetchCatFacts()
+    }, []);
 
     function averageCategory(cat) {
         return cat.split(' - ').reduce((a, b) => parseInt(a) + parseInt(b)) / 2;
@@ -34,9 +38,6 @@ const CatFacts = () => {
             console.log(error);
         }
     }
-
-    fetchCatFacts();
-
     return (
         <Fragment>
             <h1>Cat Facts</h1>
