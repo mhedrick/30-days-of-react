@@ -19,6 +19,7 @@ import day12_thumbnail from '../assets/day12_thumbnail.png';
 import day16_thumbnail from '../assets/day16_thumbnail.png'; 
 import day18_thumbnail from '../assets/day18_thumbnail.png';
 import day19_thumbnail from '../assets/day19_thumbnail.png';
+import day21_thumbnail from '../assets/day19_thumbnail.png';
 
 const days = [
   {
@@ -86,6 +87,12 @@ const days = [
     title: "Project",
     image: day19_thumbnail,
     description: 'Creating a project around cat facts to build upon what has been learned previously' 
+  },
+  {
+    number: "21",
+    title: "Introduction to Hooks",
+    image: day21_thumbnail,
+    description: 'Redoing the previous project, but with the useState hook instead of a class structure' 
   }
 ];
 
