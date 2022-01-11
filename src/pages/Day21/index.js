@@ -12,32 +12,33 @@ const CatFacts = () => {
     const [count, setCount] = useState(0);
     const [avgWeight, setAvgWeight] = useState(0);
     const [avgLife, setAvgLife] = useState(0);
-    
-    useEffect(() => {
-        fetchCatFacts()
-    }, []);
+
 
     function averageCategory(cat) {
         return cat.split(' - ').reduce((a, b) => parseInt(a) + parseInt(b)) / 2;
     }
 
-    const fetchCatFacts = async () => {
-        const url = 'https://api.thecatapi.com/v1/breeds';
-        try {
-            const response = await axios.get(url);
-            const data = await response.data;
-            setCats(data);
-            setCount(data.length);
-            setAvgWeight(data
-                .map(cat => averageCategory(cat.weight.imperial))
-                .reduce((a, b) => a + b) / data.length);
-            setAvgLife(data
-                .map(cat => averageCategory(cat.life_span))
-                .reduce((a, b) => a + b) / data.length);
-        } catch (error) {
-            console.log(error);
+    useEffect(() => {
+        async function fetchData() {
+            const url = 'https://api.thecatapi.com/v1/breeds';
+            try {
+                const response = await axios.get(url);
+                const data = await response.data;
+                setCats(data);
+                setCount(data.length);
+                setAvgWeight(data
+                    .map(cat => averageCategory(cat.weight.imperial))
+                    .reduce((a, b) => a + b) / data.length);
+                setAvgLife(data
+                    .map(cat => averageCategory(cat.life_span))
+                    .reduce((a, b) => a + b) / data.length);
+            } catch (error) {
+                console.log(error);
+            }
         }
-    }
+        fetchData();
+    }, []);
+
     return (
         <Fragment>
             <h1>Cat Facts</h1>
