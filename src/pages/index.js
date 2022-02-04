@@ -19,7 +19,9 @@ import day12_thumbnail from '../assets/day12_thumbnail.png';
 import day16_thumbnail from '../assets/day16_thumbnail.png'; 
 import day18_thumbnail from '../assets/day18_thumbnail.png';
 import day19_thumbnail from '../assets/day19_thumbnail.png';
-import day21_thumbnail from '../assets/day19_thumbnail.png';
+import day21_thumbnail from '../assets/day19_thumbnail.png';  // this stays day19
+import day24_thumbnail from '../assets/day24_thumbnail.png';
+import day25_thumbnail from '../assets/day25_thumbnail.png';  
 
 const days = [
   {
@@ -93,6 +95,18 @@ const days = [
     title: "Introduction to Hooks",
     image: day21_thumbnail,
     description: 'Redoing the previous project, but with the useState hook instead of a class structure' 
+  },
+  {
+    number: "24",
+    title: "Fetching Data using Hooks",
+    image: day24_thumbnail,
+    description: 'Fetching external data with the useEffect Hook.  The given example was broken and not well done (in my opinion), so I opted to simplify the exercise to focus on the aim of the exercise.' 
+  },
+  {
+    number: "25",
+    title: "Custom Hooks",
+    image: day24_thumbnail,
+    description: 'Using a custom Hook to fetch data' 
   }
 ];
 
@@ -118,4 +132,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default IndexPage;
