@@ -22,6 +22,7 @@ import day19_thumbnail from '../assets/day19_thumbnail.png';
 import day21_thumbnail from '../assets/day19_thumbnail.png';  // this stays day19
 import day24_thumbnail from '../assets/day24_thumbnail.png';
 import day25_thumbnail from '../assets/day25_thumbnail.png';  
+import day26_thumbnail from '../assets/day26_thumbnail.png';  
 
 const days = [
   {
@@ -105,8 +106,14 @@ const days = [
   {
     number: "25",
     title: "Custom Hooks",
-    image: day24_thumbnail,
+    image: day25_thumbnail,
     description: 'Using a custom Hook to fetch data' 
+  },
+  {
+    number: "26",
+    title: "Context",
+    image: day26_thumbnail,
+    description: 'Context is King.  Today doesn\'t have an exercise so I made one up.  Hello, world.' 
   }
 ];
 
