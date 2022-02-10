@@ -24,6 +24,7 @@ import day24_thumbnail from '../assets/day24_thumbnail.png';
 import day25_thumbnail from '../assets/day25_thumbnail.png';  
 import day26_thumbnail from '../assets/day26_thumbnail.png';  
 import day27_thumbnail from '../assets/day27_thumbnail.png';  
+import day28_thumbnail from '../assets/day28_thumbnail.png'; 
 
 const days = [
   {
@@ -121,6 +122,12 @@ const days = [
     title: "UseRef",
     image: day27_thumbnail,
     description: 'Use the UseRef hook to make a random hex generator.' 
+  },
+  {
+    number: "28",
+    title: "CRUD Project",
+    image: day28_thumbnail,
+    description: 'Final entry, and culmination of the project.  I opted to do a color palette generator.  UI is a bit wonky but I didn\'t want to pull down a whole icon library for one day\'s project.' 
   }
 ];
 
